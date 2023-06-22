@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.big-container {
+    width: 85%;
+    background-color: yellow;
+    padding: 25px;
+}
+
+h1 {
+    margin: 0;
+    /* font-size: 1.25em; */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pic img {
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+.nameDate-Pic .pic {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.nameDate-Pic .name {
+  display: inline-block;
+}
