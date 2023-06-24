@@ -1,0 +1,12 @@
+.text-container {
+    font-size: smaller;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.item1 .text-container {
+    height: 100%;
+    width: 100%;
+}

@@ -4,17 +4,37 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: #C2DEDC;
 }
 
 .big-container {
-    width: 85%;
-    background-color: yellow;
-    padding: 25px;
+    display: flex;
+    height: 450px;
+    max-width: 600px; 
+    background-color: white;
+}
+
+.item1 {
+    flex-basis: 50%;
+    margin: 0;
+}
+
+.text-container {
+  flex-grow: 1;
+}
+
+.item1 img {
+   height: 100%;
+   width: 100%;  
 }
 
 h1 {
     margin: 0;
     /* font-size: 1.25em; */
+}
+
+p {
+    font-size: 17px;
 }
 
 .container {
@@ -35,4 +55,12 @@ h1 {
 
 .nameDate-Pic .name {
   display: inline-block;
+}
+
+.name div {
+    margin-bottom: 5px; 
+  }
+
+.item1 .text-container {
+  padding: 20px;
 }
